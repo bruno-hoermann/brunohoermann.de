@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Impressum · Bruno Hörmann</title>
+<style>
+:root {
+  --bg: #ffffff; --fg: #111111; --muted: #6b6b6b; --link: #111111;
+  --font: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #141414; --fg: #e8e8e8; --muted: #9a9a9a; --link: #e8e8e8; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #141414; --fg: #e8e8e8; --muted: #9a9a9a; --link: #e8e8e8; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 400 18px/1.6 var(--font); }
+main { max-width: 34em; margin: 0 auto; padding-block: 12vh 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-size: 1.15em; font-weight: 700; margin: 0 0 2em; }
+h2 { font-size: 1em; font-weight: 700; margin: 2em 0 0.4em; }
+p { margin: 0 0 1.1em; }
+a { color: var(--link); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+footer { margin-top: 3em; color: var(--muted); font-size: 0.85em; }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Impressum</h1>
+
+  <p>Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</p>
+
+  <p>Bruno Hörmann<br>
+  Trivastraße 41<br>
+  80637 München<br>
+  Deutschland</p>
+
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:kontakt@brunohoermann.de">kontakt@brunohoermann.de</a></p>
+
+  <h2>Wirtschafts-Identifikationsnummer</h2>
+  <p>gemäß § 139c Abgabenordnung: DE464159304-00001</p>
+
+  <h2>Verantwortlich für den Inhalt</h2>
+  <p>nach § 18 Abs. 2 Medienstaatsvertrag (MStV): Bruno Hörmann, Anschrift wie oben</p>
+
+  <footer><a href="/">brunohoermann.de</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+</main>
+</body>
+</html>
